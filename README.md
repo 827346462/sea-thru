@@ -14,6 +14,7 @@ pip3 install -r requirements.txt
 wget "https://www.dropbox.com/sh/xtimf7qwfak4wwc/AAAGqn2JMe98II9lYeBTVBE2a/D3?dl=1"
 unzip D3.zip
 # generate the image
+# can use either RAW files or PNG/JPG
 python3 seathru.py --image Raw/T_S04858.ARW --depth-map depthMaps/depthT_S04858.tif
 
 ## If you want to run the monocular depth estimation pipeline
