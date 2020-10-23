@@ -46,3 +46,13 @@ output_depths = monodepth_multiply_depth + (monodepth_multiply_depth * monodepth
 ```
 
 where `monodepth_depths` range from 0 to 1.
+
+This option also works well as a dehazing routine for foggy scenes:
+
+Original:
+
+<img src="images/fog.jpg" width=320>
+
+Output:
+
+<img src="images/fog-output.jpg" width=320>
