@@ -55,4 +55,4 @@ Original:
 
 Output:
 
-<img src="images/fog-output.jpg" width=320>
+<img src="images/fog-output.png" width=320>
